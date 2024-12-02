@@ -5,7 +5,7 @@ int main()
     initscr();
     raw();
     noecho();
-    printw("[uksh]$");
+    printw("[uksh]$>>");
     int ch = getch();
     refresh();
     endwin();
