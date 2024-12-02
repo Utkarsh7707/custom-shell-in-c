@@ -5,9 +5,9 @@ int main()
     initscr();
     raw();
     noecho();
-    printw("Hello world !");
+    printw("[uksh]$");
+    int ch = getch();
     refresh();
-    getch();
     endwin();
     return 0;
 }
